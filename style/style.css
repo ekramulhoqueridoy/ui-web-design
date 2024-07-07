@@ -206,5 +206,12 @@
 hr {
   width: 100%;
   opacity: 0.4;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#forth-section{
+  margin: 80px auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
