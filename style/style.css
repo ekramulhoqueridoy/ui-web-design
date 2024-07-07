@@ -125,14 +125,51 @@
   border-radius: 8px;
   background: rgba(82, 195, 3, 0.15);
 }
-.third-container{
+.third-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.food-order{
+.food-order {
   width: 0px 100%;
-  margin-right:500px;
+  margin-right: 500px;
   text-align: center;
   align-items: center;
+}
+#subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.align-head-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.food-image {
+  background-repeat: no-repeat;
+  max-width: 50%;
+  flex: 1;
+}
+.about-us {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.align-social-media {
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hr {
+  opacity: 0.4;
 }
