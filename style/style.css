@@ -157,6 +157,7 @@
   flex: 1;
 }
 .about-us {
+  font-family: Work Sans;
   flex: 1;
   max-width: 50%;
   display: flex;
@@ -164,11 +165,46 @@
   flex-direction: column;
   justify-content: center;
 }
+.header {
+  margin: 0 80px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.header-paragraph {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin: 5px auto;
+  padding-bottom: 30px;
+}
 .align-social-media {
   align-items: center;
   justify-content: center;
 }
-
-.hr {
+.follow-us {
+  font-family: Work Sans;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+hr {
+  width: 100%;
   opacity: 0.4;
+  padding-bottom: 30px;
 }
