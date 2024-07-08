@@ -156,15 +156,6 @@
   max-width: 50%;
   flex: 1;
 }
-.about-us {
-  font-family: Work Sans;
-  flex: 1;
-  max-width: 50%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
 .header {
   margin: 0 80px;
   color: rgb(16, 16, 16);
@@ -208,10 +199,40 @@ hr {
   opacity: 0.4;
   margin-bottom: 30px;
 }
+#forth-sec-cover{
+  background-size: cover;
+}
+.about-us {
+  font-family: Work Sans;
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 #forth-section{
-  margin: 80px auto;
+  background-size: cover;
+  margin-top: 200px;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+.forth-image{
+  position: absolute;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.about-us-forth {
+  z-index: 1;
+  position: relative;
+  font-family: Work Sans;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
